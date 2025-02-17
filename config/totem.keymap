@@ -105,10 +105,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL       &kp AT            &kp HASH              &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTERISK           &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE
-           &kp TILDE      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp ASTRK    &kp AMPS   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp GRAVE  &kp LESS_THAN  &kp HASH          &kp MINUS             &kp GREATER_THAN  &kp UNDER    &kp UNDER  &kp EQUAL        &kp PLUS               &trans             &trans            &kp PIPE
-                                            &trans                &trans            &trans       &trans     &trans           &trans
+           &kp EXCL       &kp AT            &kp HASH              &kp DLLR        &kp PRCNT           &kp CARET         &kp AMPS         &kp ASTERISK           &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE
+           &kp TILDE      &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp ASTRK           &kp AMPS          &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp GRAVE  &kp LESS_THAN  &kp HASH          &kp MINUS             &kp UNDER       &kp GREATER_THAN    &kp GREATER_THAN  &kp EQUAL        &kp PLUS               &trans             &trans            &kp PIPE
+                                            &trans                &trans          &trans              &trans            &trans           &trans
             >;
         };
 
