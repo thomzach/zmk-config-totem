@@ -131,10 +131,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT     &kp CARET  &kp AMPS      &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-        &kp N1    &kp N2       &kp N3     &kp N4      &kp NUMBER_5    &kp N6     &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9          &kp NUMBER_0
-&trans  &trans    &kp PLUS     &kp MINUS  &kp EQUAL   &trans          &trans     &kp ASTRK     &kp LESS_THAN  &kp GREATER_THAN      &kp SLASH              &trans
-                               &trans     &trans      &trans          &kp ENTER  &trans        &trans
+        &kp EXCL  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT      &kp CARET         &kp AMPS       &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+        &kp N1    &kp N2       &kp N3     &kp N4      &kp NUMBER_5     &kp N6            &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0
+&trans  &trans    &kp PLUS     &kp MINUS  &kp EQUAL   &kp LESS_THAN    &kp GREATER_THAN  &kp ASTRK      &kp COMMA     &kp PERIOD            &kp SLASH              &trans
+                               &trans     &trans      &trans           &kp ENTER         &kp BACKSPACE  &trans
             >;
         };
 
